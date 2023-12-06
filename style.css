@@ -1,0 +1,181 @@
+body {
+    margin: 0%;
+}
+
+
+
+.home {
+    background-image: url(Content/Header/portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.home::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    font-size: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: bisque;
+    padding: 20px
+}
+
+#menu-button {
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.appon {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: end;
+}
+
+hr {
+    width: 200px;
+    margin: 40px 0 20px auto;
+}
+
+.appon h1 {
+    color: white;
+    font-size: 40px;
+}
+
+
+.para {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.para-1 {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 50%
+}
+
+.banner-button p {
+    color: white;
+    margin: 0;
+    font-size: 10px;
+}
+
+.banner-button h1 {
+    margin: 0;
+    font-size: 15px;
+    color: white
+}
+
+.banner-button i {
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.banner-button {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    margin: 50px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.white-bg {
+    background-color: black;
+}
+
+/* About Us */
+.img-size {
+    height: 580px;
+    width: auto;
+}
+
+.about-us-align {
+    align-items: center;
+    text-align: center;
+}
+
+/* Features */
+
+.icon-size {
+    font-size: 40px;
+}
+
+.margin-zero {
+    margin: 0 0 0 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.margin-down {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.features-bg {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    width: 100%;
+}
