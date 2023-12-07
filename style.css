@@ -179,3 +179,16 @@ hr {
     height: 100vh;
     width: 100%;
 }
+
+/* screenshot  */
+
+
+.screenshot-img {
+    width: 200px;
+    height: auto;
+}
+
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
